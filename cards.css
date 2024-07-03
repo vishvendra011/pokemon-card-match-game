@@ -1,0 +1,23 @@
+body {
+    background: url("pokemon.jpg_blured.jpg");
+    filter: blur(50%);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board {
+    height: 532px;
+    width: 475px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d5def5;
+    border: 10px solid #113f67;
+}
+
+.card {
+    height: 128px;
+    width: 90px;
+    margin: 2.5px;
+}
